@@ -1,3 +1,24 @@
 body {
-	background-color: beige;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+	overflow-x: hidden;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(https://static.pexels.com/photos/239520/pexels-photo-239520.jpeg);
+	background-size: cover;
+}
+
+.heading {
+	display: inline-block;
+	margin: 0 auto;
+	color: white;
+	font-family: 'Passion One', cursive;
+	text-align: center;
+	font-size: 30px;
+}
+
+.heading p {
+	font-family: 'Crushed', cursive;
 }
