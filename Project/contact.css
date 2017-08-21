@@ -1,0 +1,97 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x:hidden;
+}
+
+.topnav {
+    position:relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+ 
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase; 
+    font-weight: 500; 
+    font-family:'Passion One', cursive;
+}
+.smallnav {
+    float: right;
+    margin-top: 0px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+.landing {
+  margin-top:-20px;
+  position: relative;
+  background-image: url(https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.landing h1 {
+  padding-top: 150px;
+  font-family:'Passion One', cursive;
+  color:white;
+  font-size: 80px;
+  font-weight: 900;
+}
+
+.landing p {
+  font-family: 'Crushed', cursive;
+  color:white;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.landing hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    width: 7em;
+    border: 2px solid #FFF;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+}
+.copyright {
+  float: right;
+  margin-right: 280px;
+  font-family: 'Lora', serif;
+}
+
+.about-text {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    -webkit-tap-highlight-color: #0085A1;
+    line-height: 1.5;
+}
+
+p {
+padding-bottom: 15px;
+}
