@@ -8,14 +8,12 @@
   <link href="https://fonts.googleapis.com/css?family=Crushed|Merriweather|Passion+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <link rel="stylesheet" href="split.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 </head>
-<body>
-	<div class="landing">
+<body class="body">
+	<div class="landing" style=" background-image: url(https://static.pexels.com/photos/210990/pexels-photo-210990.jpeg);">
 	    <nav class="topnav" id="nav">
 	      <header>
-	          <a href="index.htm" style="text-transform: none; font-size: 30px;">Split</a>
+	          <a href="index.html" style="text-transform: none; font-size: 30px;">Split</a>
 	      </header>
 	        <a class="smallnav" href="index.html">Home</a>
 	        <a href="split.html">Split Tool</a>
@@ -36,14 +34,28 @@
 	        <div class="row">
 		        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 		        	<div class="about-text">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>	
+						<p>We know planning events is hard, so leave the tedious work of splitting the expenses to us and enjoy!
+                        </p>
+                        <div class="app">
+                            <form class="form-inline">
+                              <label class="mr-sm-2">Number in Party</label><br>
+                                <div class="input-group">
+                                  <input type="number" class="form-control" id="myValue" placeholder="Enter a number">
+                                  <span class="input-group-btn">
+                                    <button class="btn btn-secondary" id="submit" type="button">Go!</button>
+                                  </span>
+                                </div>
+                            </form>
+                            <div id="nameForm">
+                            </div>
+                        </div>
 		        	</div>
 		        </div>
 	        </div>
 	        <hr>
 	</div>
+<script src="split.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 <footer>
         <div class="container">
