@@ -16,7 +16,7 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 16px;
     text-decoration: none;
     font-size: 20px;
     line-height: 20px;
@@ -27,7 +27,7 @@ body {
 .smallnav {
     float: right;
     margin-top: 0px;
-    margin-left: 900px;
+    margin-left: 1400px;
     font-size: 20px;
 }
 
@@ -124,7 +124,7 @@ body {
 .smallnav {
     float: right;
     margin-top: 0px;
-    margin-left: 900px;
+    margin-left: 1400px;
     font-size: 20px;
 }
 
