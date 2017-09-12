@@ -34,6 +34,7 @@ body {
 	border-radius: 20px;
 	color: white;
 }
+
 .topnav {
     position:relative;
     top: 0;
@@ -57,7 +58,6 @@ body {
 .smallnav {
     float: right;
     margin-top: 0px;
-    margin-left: 1400px;
     font-size: 20px;
 }
 
